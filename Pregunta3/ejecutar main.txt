@@ -1,0 +1,5 @@
+bash# Compilar
+go build -o simulador main.go
+
+# Ejecutar
+./simulador

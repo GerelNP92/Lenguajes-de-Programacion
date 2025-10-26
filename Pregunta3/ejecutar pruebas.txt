@@ -1,0 +1,9 @@
+bash# Ejecutar todas las pruebas
+go test -v
+
+# Ver cobertura
+go test -cover
+
+# Generar reporte de cobertura
+go test -coverprofile=coverage.out
+go tool cover -html=coverage.out
